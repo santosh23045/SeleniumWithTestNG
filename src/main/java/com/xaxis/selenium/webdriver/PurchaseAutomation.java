@@ -59,7 +59,7 @@ public class PurchaseAutomation {
 
 	// closeing site
 	public void closeSite() throws InterruptedException {
-		Thread.sleep(6000);
+		Thread.sleep(12000);
 		driver.quit();
 		driver = null;
 	}
