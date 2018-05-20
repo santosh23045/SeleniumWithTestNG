@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [testNG.TestPurchaseAutomation]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="testNG.TestPurchaseAutomation">
+        <methods>
+          <include name="testRefineDeviceFeatures"/>
+          <include name="testSearchItems"/>
+        </methods>
+      </class> <!-- testNG.TestPurchaseAutomation -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [testNG.TestPurchaseAutomation] -->
